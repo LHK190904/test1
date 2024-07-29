@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    font-family: "Open Sans","Jura", sans-serif;
+    font-optical-sizing: auto;
+  }
+  html,
+  body,
+  #root {
+    @apply h-full;
+  }
+}
